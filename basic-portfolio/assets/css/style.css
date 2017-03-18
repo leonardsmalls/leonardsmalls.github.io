@@ -246,3 +246,173 @@ body {
         color: #fff;
         padding: 5px 15px;
     }
+
+    @media screen and (max-width: 980px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 620px;
+            max-width: 620px;
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 960px;
+            padding: 0;
+        }
+
+        section.panel {
+            box-sizing: border-box;
+            float: left;
+            min-height: 100px;
+            padding: 0 20px 20px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section.panel.content {
+            max-width: 360px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 210px;
+            margin-left: 25px;
+        }
+        section.panel.connect-with-me img {
+            max-width: 45px;
+        }
+        section.panel.content img.about {
+            width: 320px;
+            max-width: 320px;
+            margin-bottom: 20px;
+        } 
+        section.panel.content p {
+            margin-bottom: 20px;
+            line-height: 30px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            width: 315px;
+            max-width: 315px;
+            height: 250px;
+            max-height: 250px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 100%;
+            max-width: 768px;
+            font-size: 15px;
+            margin-left: 15px;
+            overflow-x: hidden;
+        }
+
+        div#header-wrapper nav {
+            margin-right: 15px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 768px;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        section.panel.content {
+            max-width: 735px;
+            width: 735px;
+            margin-bottom: 20px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 735px;
+            width: 735px;
+            margin-left: 0;
+            margin-bottom: 100px;
+        }
+        section.panel.connect-with-me img {
+            max-width: 65px;
+        }
+        section.panel.content img.about {
+            width: 350px;
+            max-width: 350px;
+            margin-bottom: 10px;
+        } 
+        section.panel.content p {
+            margin-bottom: 30px;
+            line-height: 40px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            margin-right: 55px;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 640px;
+            max-width: 640px;
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 640px;
+            padding: 0;
+        }
+
+        section.panel {
+            box-sizing: border-box;
+            float: left;
+            min-height: 100px;
+            padding: 0 20px 20px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section.panel.content {
+            max-width: 610px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 610px;
+            margin-left: 0;
+        }
+        section.panel.connect-with-me img {
+            max-width: 45px;
+        }
+        section.panel.content img.about {
+            width: 565px;
+            max-width: 565px;
+            margin-bottom: 20px;
+        } 
+        section.panel.content p {
+            margin-bottom: 20px;
+            line-height: 30px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            width: 565px;
+            max-width: 565px;
+            height: 400px;
+            max-height: 400px;
+            margin-bottom: 50px;
+        }
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+<script>
+var rps = ["r", "p", "s"];
+var rpsComp = ["r", "p", "s"];
+var computerGuess = function() {
+	let compG = rpsComp[Math.floor(Math.random() * rpsComp.length)];
+	return compG;
+};
+
+for(var i =0; i < rps.length; i++) {
+	console.log(rps[i]);
+}
+
+document.onkeyup = function(e) {
+	console.log(e.key);
+	if (e.key === computerGuess()) {
+		alert('tie');
+	} else if (e.key === "r") {
+		if (computerGuess() === "s") {
+			alert('you win!');
+		} else if (computerGuess() === "p") {
+			alert('you lose');
+		} 
+	} else if (e.key === "p") {
+		if (computerGuess() === "r") {
+			alert('you win!');
+		} else if (computerGuess() === "s") {
+			alert('you lose');
+		}
+	} else if (e.key === "s") {
+		if (computerGuess() === "p") {
+			alert('you win!');
+		} else if (computerGuess() === "r") {
+			alert('you lose');
+		}
+	}
+}
+
+
+</script>
+</body>
+</html>
