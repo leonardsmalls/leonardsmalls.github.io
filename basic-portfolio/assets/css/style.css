@@ -386,19 +386,19 @@ body {
         }
 
         section.panel.content {
-            max-width: 610px;
+            max-width: 590px;
         }
 
         section.panel.connect-with-me {
-            max-width: 610px;
+            max-width: 590px;
             margin-left: 0;
         }
         section.panel.connect-with-me img {
             max-width: 45px;
         }
         section.panel.content img.about {
-            width: 565px;
-            max-width: 565px;
+            width: 545px;
+            max-width: 545px;
             margin-bottom: 20px;
         } 
         section.panel.content p {
@@ -409,8 +409,8 @@ body {
 
         /*~~~ Portfolio Styles ~~~*/
         section.panel.content figure {
-            width: 565px;
-            max-width: 565px;
+            width: 545px;
+            max-width: 545px;
             height: 400px;
             max-height: 400px;
             margin-bottom: 50px;
