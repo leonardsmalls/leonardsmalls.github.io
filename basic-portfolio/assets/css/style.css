@@ -328,14 +328,14 @@ body {
         }
 
         section.panel.content {
-            max-width: 735px;
-            width: 735px;
+            max-width: 715px;
+            width: 715px;
             margin-bottom: 20px;
         }
 
         section.panel.connect-with-me {
-            max-width: 735px;
-            width: 735px;
+            max-width: 715px;
+            width: 715px;
             margin-left: 0;
             margin-bottom: 100px;
         }
