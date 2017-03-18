@@ -356,6 +356,8 @@ body {
         /*~~~ Portfolio Styles ~~~*/
         section.panel.content figure {
             margin-right: 55px;
+            width: 305px;
+            max-width: 305px;
         }
     }
 
