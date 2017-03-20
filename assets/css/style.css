@@ -1,4 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
+        background-image: url("../images/escheresque_ste.png");
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
@@ -22,7 +26,11 @@ body {
     
     p,
     ul li {
+<<<<<<< HEAD
         color: #000;
+=======
+        color: #777;
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
     }
     
     div#body-wrapper {
@@ -63,11 +71,15 @@ body {
         display: inline-block;
     }
     
+<<<<<<< HEAD
     .navbar-default .navbar-nav > li:nth-of-type(2n + 0) > a {
         color: #ccc;
     }
 
     .navbar-default .navbar-nav > li:nth-of-type(2n + 0) > a:hover {
+=======
+    div#header-wrapper nav ul li:nth-of-type(2n + 0) {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         color: #ccc;
     }
     
@@ -76,6 +88,7 @@ body {
         color: #777;
     }
     
+<<<<<<< HEAD
     section.pane {
         box-sizing: border-box;
         padding: 0 20px 20px;
@@ -86,37 +99,83 @@ body {
     }
     
     section.pane h1 {
+=======
+    section.panel {
+        box-sizing: border-box;
+        float: left;
+        min-height: 100px;
+        padding: 0 20px 20px;
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    section.panel h1 {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border-bottom: 2px solid rgb(200, 200, 200);
         padding: 20px 0;
         margin-bottom: 20px;
     }
     
+<<<<<<< HEAD
     section.pane h1,
     section.pane h3 {
         color: #4AAAA5;
     }
     
     section.pane h3 {
+=======
+    section.panel h1,
+    section.panel h3 {
+        color: #4AAAA5;
+    }
+    
+    section.panel h3 {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border-bottom: 1px solid rgb(200, 200, 200);
         padding: 10px 0;
         font-size: 18px;
     }
+<<<<<<< HEAD
 
     section.pane.connect-with-me img {
+=======
+    
+    section.panel.content {
+        width: 650px;
+        display: inline-block;
+    }
+    
+    section.panel.connect-with-me {
+        width: 275px;
+        margin-left: 25px;
+    }
+
+    section.panel.connect-with-me img {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         width: 67px;
         max-width: 67px;
         float: left;
         margin: 15px 15px 0 0;
     }
     
+<<<<<<< HEAD
     section.pane.connect-with-me a:last-of-type img {
+=======
+    section.panel.connect-with-me a:last-of-type img {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         margin-right: 0;
     }
     
     footer {
         width: 100%;
+<<<<<<< HEAD
         background-color: #3c3c3c;
         border-top: 5px solid #25A4CF;;
+=======
+        background-color: #666;
+        border-top: 5px solid #4AAAA5;
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         position: fixed;
         bottom: 0;
         text-align: center;
@@ -131,15 +190,27 @@ body {
 
     /* ~~~~~ About Styles ~~~~~ */
 
+<<<<<<< HEAD
     section.pane.content img.about {
+=======
+    section.panel.content img.about {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         width: 200px;
         max-width: 200px;
         float: left;
         display: inline;
+<<<<<<< HEAD
         margin-right: 10px;     
     }
     
     section.pane.content p {
+=======
+        margin-right: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    section.panel.content p {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         margin-bottom: 20px;
         line-height: 30px;
     }
@@ -147,61 +218,110 @@ body {
 
     /* ~~~~~ Portfolio Styles ~~~~~ */
     
+<<<<<<< HEAD
     section.pane h1 {
+=======
+    section.panel h1 {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border-bottom: 2px solid rgb(200, 200, 200);
         padding: 20px 0;
         margin-bottom: 20px;
     }
     
+<<<<<<< HEAD
     section.pane h1,
     section.pane h3 {
         color: #4AAAA5;
     }
     
     section.pane h3 {
+=======
+    section.panel h1,
+    section.panel h3 {
+        color: #4AAAA5;
+    }
+    
+    section.panel h3 {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border-bottom: 1px solid rgb(200, 200, 200);
         padding: 10px 0;
         font-size: 18px;
     }
     
+<<<<<<< HEAD
     section.pane.content figure {
+=======
+    section.panel.content {
+        width: 650px;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    
+    section.panel.content figure {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         width: 250px;
         max-width: 250px;
         height: 200px;
         float: left;
+<<<<<<< HEAD
         margin-right: 50px;
+=======
+        margin-right: 100px;
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         margin-bottom: 20px;
         border: 1px solid rgb(200, 200, 200);
     }
 
+<<<<<<< HEAD
     section.pane.content figcaption {
         position: relative;
         top: -55px;
         margin: 0 auto;
         text-align: center;
         background-color: #25A4CF;
+=======
+    section.panel.content figcaption {
+        position: relative;
+        top: -60px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #4AAAAC;
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         padding: 10px;
         color: #fff;
         box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
     }
 
+<<<<<<< HEAD
     section.pane.content img {
         box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
     }
 
     section.pane.content figure img {
+=======
+    section.panel.content img {
+        box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
+    }
+
+    section.panel.content figure img {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         display: inline;
         width: 100%;
         height: 100%;
     }
 
+<<<<<<< HEAD
     section.pane.content figure:nth-of-type(2n + 0) {
+=======
+    section.panel.content figure:nth-of-type(2n + 0) {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         margin-right: 0;
     }
 
 
     /* ~~~~~ Contact Styles ~~~~~ */
     
+<<<<<<< HEAD
     section.pane.content div {
         padding: 5px 10px 5px 0;
     }
@@ -211,13 +331,29 @@ body {
     }
     
     section.pane.content label {
+=======
+    section.panel.content div {
+        padding: 5px 10px 5px 0;
+    }
+    
+    section.panel textarea {
+        height: 150px;
+    }
+    
+    section.panel.content label {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         line-height: 24px;
         font-size: 14px;
         color: #555;
     }
     
+<<<<<<< HEAD
     section.pane.content form input,
     section.pane.content form textarea {
+=======
+    section.panel.content form input,
+    section.panel.content form textarea {
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border: 1px solid #ddd;
         width: 100%;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -225,13 +361,19 @@ body {
         padding: 5px;
     }
     
+<<<<<<< HEAD
     section.pane.content form button {
         background-color: #25A4CF;
+=======
+    section.panel.content form button {
+        background-color: #4AAAA5;
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
         border: 1px solid #ccc;
         color: #fff;
         padding: 5px 15px;
     }
 
+<<<<<<< HEAD
     /*~~~~~Bootstrap Overrides~~~~~*/
     .content-wrapper {
         padding: 0 20px;
@@ -306,4 +448,176 @@ body {
 
     div.pane.portfolio {
         margin-bottom: 100px;
+=======
+    @media screen and (max-width: 980px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 620px;
+            max-width: 620px;
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 960px;
+            padding: 0;
+        }
+
+        section.panel {
+            box-sizing: border-box;
+            float: left;
+            min-height: 100px;
+            padding: 0 20px 20px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section.panel.content {
+            max-width: 360px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 210px;
+            margin-left: 25px;
+        }
+        section.panel.connect-with-me img {
+            max-width: 45px;
+        }
+        section.panel.content img.about {
+            width: 320px;
+            max-width: 320px;
+            margin-bottom: 20px;
+        } 
+        section.panel.content p {
+            margin-bottom: 20px;
+            line-height: 30px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            width: 315px;
+            max-width: 315px;
+            height: 250px;
+            max-height: 250px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 100%;
+            max-width: 768px;
+            font-size: 15px;
+            margin-left: 15px;
+            overflow-x: hidden;
+        }
+
+        div#header-wrapper nav {
+            margin-right: 15px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 768px;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        section.panel.content {
+            max-width: 715px;
+            width: 715px;
+            margin-bottom: 20px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 715px;
+            width: 715px;
+            margin-left: 0;
+            margin-bottom: 100px;
+        }
+        section.panel.connect-with-me img {
+            max-width: 65px;
+        }
+        section.panel.content img.about {
+            width: 350px;
+            max-width: 350px;
+            margin-bottom: 10px;
+        } 
+        section.panel.content p {
+            margin-bottom: 30px;
+            line-height: 40px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            margin-right: 55px;
+            width: 305px;
+            max-width: 305px;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        div#header-wrapper,
+        div#content-wrapper,
+        div#footer-wrapper {
+            width: 640px;
+            max-width: 640px;
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+        div#body-wrapper {
+            width: 100%;
+            max-width: 640px;
+            padding: 0;
+        }
+
+        section.panel {
+            box-sizing: border-box;
+            float: left;
+            min-height: 100px;
+            padding: 0 20px 20px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section.panel.content {
+            max-width: 590px;
+        }
+
+        section.panel.connect-with-me {
+            max-width: 590px;
+            margin-left: 0;
+        }
+        section.panel.connect-with-me img {
+            max-width: 45px;
+        }
+        section.panel.content img.about {
+            width: 545px;
+            max-width: 545px;
+            margin-bottom: 20px;
+        } 
+        section.panel.content p {
+            margin-bottom: 20px;
+            line-height: 30px;
+            font-size: 18px;
+        }
+
+        /*~~~ Portfolio Styles ~~~*/
+        section.panel.content figure {
+            width: 545px;
+            max-width: 545px;
+            height: 400px;
+            max-height: 400px;
+            margin-bottom: 50px;
+        }
+>>>>>>> 80ae8cec5e8ef4328ac2e2afa6b0d0769c8eda3a
     }
