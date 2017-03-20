@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Bands</title>
+</head>
+<body>
+
+<script>
+
+var bandArray = ["Sublime","Beatles","Doors","NOFX"];
+var askBands = prompt("Name your favorite band");
+
+for (var i =0; i < bandArray.length; i++) {
+	let sb = bandArray[i].toLowerCase();
+	let ab = askBands.toLowerCase();
+
+	sb === ab ? alert("Awesome!") : alert("Not Cool!");
+}
+
+</script>
+
+</body>
+</html>
