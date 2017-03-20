@@ -1,0 +1,6 @@
+[submodule "responsive-directory"]
+	path = responsive-directory
+	url = https://github.com/leonardsmalls/responsive-portfolio.git
+[submodule "responsive-directoryr"]
+	path = responsive-directoryr
+	url = https://github.com/leonardsmalls/responsive-portfolio.git
