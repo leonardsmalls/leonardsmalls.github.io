@@ -1,143 +1,97 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Corey's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+    <title>Corey's Bootstrapped Portfolio</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    
-
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div id="body-wrapper">
-        <header>
-            <div id="header-wrapper">
-                <h1 id="logo">Corey Simpson</h1>
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">About</a></li>
-                        <li>&nbsp;|&nbsp;</li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li>&nbsp;|&nbsp;</li>
-                        <li><a href="./contact.html">Contact</a></li>
+    <div class="body-wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Corey Simpson</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span>About</span></a></li>
+                        <li><a>&nbsp;|&nbsp;</a></li>
+                        <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+                        <li><a>&nbsp;|&nbsp;</a></li>
+                        <li class="active"><a href="#"><span>Contact</span></a></li>
                     </ul>
-                </nav>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-        </header>
-        <div id="content-wrapper">
-            <section class="panel content">
-                <h1>Contact</h1>
-                <form action="mailto:leonard.smalls37@gmail.com" method="get">
-                    <div>
-                        <label for="input-name">Name</label>
-                        <br>
-                        <input type="text" id="input-name" placeholder="John Doe">
-                        <br>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-1">
+                    <div class="panel panel-default pane contact">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Contact</h3>
+                        </div>
+                        <section class="pane content">
+                            <form action="mailto:leonard.smalls37@gmail.com" method="get">
+                                <div>
+                                    <label for="input-name">Name</label>
+                                    <br>
+                                    <input type="text" id="input-name" placeholder="John Doe">
+                                    <br>
+                                </div>
+                                <div>
+                                    <label for="input-email">Email</label>
+                                    <br>
+                                    <input type="text" id="input-email" placeholder="example@gmail.com">
+                                    <br>
+                                </div>
+                                <div>
+                                    <label for="input-textbox">Message</label>
+                                    <br>
+                                    <textarea type="text" id="input-textbox" placeholder="Your pleasant message here..."></textarea>
+                                </div>
+                                <div>
+                                    <button>Submit</button>
+                                </div>
+                            </form>
+                        </section>
                     </div>
-                    <div>
-                        <label for="input-email">Email</label>
-                        <br>
-                        <input type="text" id="input-email" placeholder="example@gmail.com">
-                        <br>
+                </div>
+                <div class="col-sm-3 col-sm-offset-1">
+                    <div class="panel panel-default pane">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Connect With Me</h3>
+                        </div>
+                        <div class="panel-body">
+                            <section class="pane connect-with-me">
+                                <a href="https://github.com/leonardsmalls"><img src="./assets/images/github_icon.png" alt="git-hub icon" title="GitHub"></a>
+                                <a href="https://www.linkedin.com/in/corey-simpson-474410122/"><img src="./assets/images/linkedin_icon.png" alt="linkedin icon" title="LinkedIn"></a>
+                                <a href="https://stackoverflow.com/users/7626482/leonard-smalls"><img src="./assets/images/stackoverflow_icon.png" alt="stack-overflow icon" title="Stack Overflow"></a>
+                            </section>
+                        </div>
                     </div>
-                    <div>
-                        <label for="input-textbox">Message</label>
-                        <br>
-                        <textarea type="text" id="input-textbox" placeholder="Your pleasant message here..."></textarea>
-                    </div>
-                    <div>
-                        <button>Submit</button>
-                    </div>
-                </form>
-            </section>
-            <section class="panel connect-with-me">
-                <h3>Connect With Me</h3>
-                <a href="https://github.com/leonardsmalls"><img src="./assets/images/github_icon.png" alt="git-hub icon" title="GitHub"></a>
-                <a href="https://www.linkedin.com/in/corey-simpson-474410122/"><img src="./assets/images/linkedin_icon.png" alt="linkedin icon" title="LinkedIn"></a>
-                <a href="https://stackoverflow.com/users/7626482/leonard-smalls"><img src="./assets/images/stackoverflow_icon.png" alt="stack-overflow icon" title="Stack Overflow"></a>
-            </section>
+                </div>
+            </div>
         </div>
         <footer>
             <div id="footer-wrapper">
-                <p>&copy; Copyright 2017 Corey Simpson</p>
+                <p>&copy;Copyright 2017 Corey Simpson</p>
             </div>
         </footer>
     </div>
 </body>
 
 </html>
-=======
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Corey's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    
-
-</head>
-
-<body>
-    <div id="body-wrapper">
-        <header>
-            <div id="header-wrapper">
-                <h1 id="logo">Corey Simpson</h1>
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">About</a></li>
-                        <li>&nbsp;|&nbsp;</li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li>&nbsp;|&nbsp;</li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div id="content-wrapper">
-            <section class="panel content">
-                <h1>Contact</h1>
-                <form action="mailto:leonard.smalls37@gmail.com" method="get">
-                    <div>
-                        <label for="input-name">Name</label>
-                        <br>
-                        <input type="text" id="input-name" placeholder="John Doe">
-                        <br>
-                    </div>
-                    <div>
-                        <label for="input-email">Email</label>
-                        <br>
-                        <input type="text" id="input-email" placeholder="example@gmail.com">
-                        <br>
-                    </div>
-                    <div>
-                        <label for="input-textbox">Message</label>
-                        <br>
-                        <textarea type="text" id="input-textbox" placeholder="Your pleasant message here..."></textarea>
-                    </div>
-                    <div>
-                        <button>Submit</button>
-                    </div>
-                </form>
-            </section>
-            <section class="panel connect-with-me">
-                <h3>Connect With Me</h3>
-                <a href="https://github.com/leonardsmalls"><img src="./assets/images/github_icon.png" alt="git-hub icon" title="GitHub"></a>
-                <a href="https://www.linkedin.com/in/corey-simpson-474410122/"><img src="./assets/images/linkedin_icon.png" alt="linkedin icon" title="LinkedIn"></a>
-                <a href="https://stackoverflow.com/users/7626482/leonard-smalls"><img src="./assets/images/stackoverflow_icon.png" alt="stack-overflow icon" title="Stack Overflow"></a>
-            </section>
-        </div>
-        <footer>
-            <div id="footer-wrapper">
-                <p>&copy; Copyright 2017 Corey Simpson</p>
-            </div>
-        </footer>
-    </div>
-</body>
-
-</html>
->>>>>>> cf1329b14ec4f1adf61062789f56ff97cc9c0efb

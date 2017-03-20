@@ -1,0 +1,309 @@
+body {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: #777;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    p,
+    ul li {
+        color: #000;
+    }
+    
+    div#body-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    header {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 2px solid #ccc;
+        color: #fff;
+    }
+    
+    div#header-wrapper,
+    div#content-wrapper,
+    div#footer-wrapper {
+        width: 960px;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    div#header-wrapper h1#logo {
+        background-color: #4AAAA5;
+    }
+    
+    div#header-wrapper h1#logo,
+    div#header-wrapper nav {
+        padding: 20px;
+    }
+    
+    div#header-wrapper h1#logo,
+    div#header-wrapper nav,
+    div#header-wrapper nav ul,
+    div#header-wrapper nav ul li {
+        display: inline-block;
+    }
+    
+    .navbar-default .navbar-nav > li:nth-of-type(2n + 0) > a {
+        color: #ccc;
+    }
+
+    .navbar-default .navbar-nav > li:nth-of-type(2n + 0) > a:hover {
+        color: #ccc;
+    }
+    
+    div#header-wrapper nav {
+        float: right;
+        color: #777;
+    }
+    
+    section.pane {
+        box-sizing: border-box;
+        padding: 0 20px 20px;
+    }
+
+    div.pane {
+        margin-bottom: 200px;
+    }
+    
+    section.pane h1 {
+        border-bottom: 2px solid rgb(200, 200, 200);
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    
+    section.pane h1,
+    section.pane h3 {
+        color: #4AAAA5;
+    }
+    
+    section.pane h3 {
+        border-bottom: 1px solid rgb(200, 200, 200);
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    section.pane.connect-with-me img {
+        width: 67px;
+        max-width: 67px;
+        float: left;
+        margin: 15px 15px 0 0;
+    }
+    
+    section.pane.connect-with-me a:last-of-type img {
+        margin-right: 0;
+    }
+    
+    footer {
+        width: 100%;
+        background-color: #3c3c3c;
+        border-top: 5px solid #25A4CF;;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    footer div#footer-wrapper p {
+        padding: 20px;
+        font-size: 12px;
+        color: #fff;
+    }
+
+
+    /* ~~~~~ About Styles ~~~~~ */
+
+    section.pane.content img.about {
+        width: 200px;
+        max-width: 200px;
+        float: left;
+        display: inline;
+        margin-right: 10px;     
+    }
+    
+    section.pane.content p {
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+
+    /* ~~~~~ Portfolio Styles ~~~~~ */
+    
+    section.pane h1 {
+        border-bottom: 2px solid rgb(200, 200, 200);
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    
+    section.pane h1,
+    section.pane h3 {
+        color: #4AAAA5;
+    }
+    
+    section.pane h3 {
+        border-bottom: 1px solid rgb(200, 200, 200);
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    
+    section.pane.content figure {
+        width: 250px;
+        max-width: 250px;
+        height: 200px;
+        float: left;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+
+    section.pane.content figcaption {
+        position: relative;
+        top: -55px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #25A4CF;
+        padding: 10px;
+        color: #fff;
+        box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
+    }
+
+    section.pane.content img {
+        box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
+    }
+
+    section.pane.content figure img {
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+
+    section.pane.content figure:nth-of-type(2n + 0) {
+        margin-right: 0;
+    }
+
+
+    /* ~~~~~ Contact Styles ~~~~~ */
+    
+    section.pane.content div {
+        padding: 5px 10px 5px 0;
+    }
+    
+    section.pane textarea {
+        height: 150px;
+    }
+    
+    section.pane.content label {
+        line-height: 24px;
+        font-size: 14px;
+        color: #555;
+    }
+    
+    section.pane.content form input,
+    section.pane.content form textarea {
+        border: 1px solid #ddd;
+        width: 100%;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 5px;
+    }
+    
+    section.pane.content form button {
+        background-color: #25A4CF;
+        border: 1px solid #ccc;
+        color: #fff;
+        padding: 5px 15px;
+    }
+
+    /*~~~~~Bootstrap Overrides~~~~~*/
+    .content-wrapper {
+        padding: 0 20px;
+    }
+    
+    .panel {
+        background-image: url('../images/old_mathematics_@2X.png');
+    }
+    
+    .body-wrapper {
+        position: absolute;
+        z-index: 1;
+        min-height: 100%;
+        background-color: rgba(255,255,255,1);
+        width: 100%;
+    }
+    
+    .body-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .7;
+        z-index: -1;
+        background-image: url("../images/escheresque_ste.png");
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        background-color: #25A4CF;
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > li a:hover {
+        color: #25A4CF;
+    }
+
+    .panel-default > .panel-heading { 
+        background-color: #3c3c3c;
+        color: #ffffff;
+        border-bottom: 5px solid #25A4CF;
+    }
+
+    .panel-default {
+        border-color: #000;
+    }
+
+    .panel {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+
+    .navbar-default a.navbar-brand {
+        background: #25A4CF; /* Old browsers */
+        color: #ffffff;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    nav.navbar.navbar-default {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #25A4CF;
+        border-radius: 0;
+    }
+
+    div.pane.about,
+    div.pane.contact {
+        margin-bottom: 20px;
+    }
+
+    div.pane.portfolio {
+        margin-bottom: 100px;
+    }
