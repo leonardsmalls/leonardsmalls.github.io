@@ -4,11 +4,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 	<head>
 	<style>
-
 	.floor {
 		width: 100%;
 	}
-
 	.floorL {
 		width: 42%;
 		height: 20px;
@@ -19,7 +17,6 @@
 		background-color: white;
 		z-index: 1000;
 	}
-
 	.floorR {
 		width: 42%;
 		height: 20px;
@@ -30,7 +27,6 @@
 		background-color: white;
 		z-index: 1000;
 	}
-
 	.rope {
 		position: absolute;
 		margin: 0 auto;
@@ -41,139 +37,108 @@
 		top: -1100px;
 		background-color: white;
 	}
-
 	.rope.drop1 {
 		animation: dropRope1 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope1 {
 	  0% { top: -1100px; }
 	  70% { top: -1100px; }
 	  100% { top: -1090px; }
 	}
-
 	.rope.drop2 {
 		animation: dropRope2 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope2 {
 	  0% { top: -1090px; }
 	  70% { top: -1090px; }
 	  100% { top: -1070px; }
 	}
-
 	.rope.drop3 {
 		animation: dropRope3 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope3 {
 	  0% { top: -1100px; }
 	  70% { top: -1100px; }
 	  100% { top: -1090px; }
 	}
-
 	.rope.drop4 {
 		animation: dropRope4 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope4 {
 	  0% { top: -1100px; }
 	  70% { top: -1100px; }
 	  100% { top: -1090px; }
 	}
-
 	.rope.drop5 {
 		animation: dropRope5 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope5 {
 	  0% { top: -1100px; }
 	  70% { top: -1100px; }
 	  100% { top: -1090px; }
 	}
-
 	.rope.drop6 {
 		animation: dropRope6 2s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropRope6 {
 	  0% { top: -1100px; }
 	  70% { top: -1100px; }
 	  100% { top: -790px; }
 	}
-
 	.hangman {
 		position: absolute;
 		margin: 0 auto;
 		left: 48.5%;
 		top: 300px;
 	}
-
 	.hangman.drop1 {
 		animation: dropH1 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH1 {
 	  0% { top: 300px; }
 	  70% { top: 300px; }
 	  100% { top: 310px; }
 	}
-
 	.hangman.drop2 {
 		animation: dropH2 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH2 {
 	  0% { top: 310px; }
 	  70% { top: 310px; }
 	  100% { top: 323px; }
 	}
-
 	.hangman.drop3 {
 		animation: dropH3 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH3 {
 	  0% { top: 323px; }
 	  70% { top: 323px; }
 	  100% { top: 335px; }
 	}
-
 	.hangman.drop4 {
 		animation: dropH4 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH4 {
 	  0% { top: 335px; }
 	  60% { top: 335px; }
 	  100% { top: 350px; }
 	}
-
 	.hangman.drop5 {
 		animation: dropH5 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH5 {
 	  0% { top: 350px; }
 	  60% { top: 350px; }
 	  100% { top: 365px; }
 	}
-
-
-
-
 	.hangman.drop6 {
 		animation: dropH6 1.8s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropH6 {
 	  0% { top: 365px; }
 	  87% { top: 365px; }
 	  100% { top: 550px; }
 	}
-
-
-
 	.hangman-head {
 		position: relative;
 		width: 50px;
@@ -183,46 +148,36 @@
 		z-index: 1000;
 		background-color: moccasin;
 	}
-
 	.hangman.drop1 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: moccasin;
 	}
-
 	.hangman.drop2 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: pink;
 	}
-
 	.hangman.drop3 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: red;
 	}
-
-
 	.hangman.drop4 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: violet;
 	}
-
-
 	.hangman.drop5 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: purple;
 	}
-
-
 	.hangman.drop6 .hangman-head {
 		transition: 1s;
 		transition-delay: 2s;
 		background-color: blue;
 	}
-
 	.hangman-noose {
 		position: relative;
 		width: 50px;
@@ -233,7 +188,6 @@
 		border-radius: 50px;
 		background-color: white;
 	}
-
 	.hangman-torso {
 		position: relative;
 		height: 110px;
@@ -243,7 +197,6 @@
 		z-index: 5000;
 		background-color: white;
 	}
-
 	.hangman-armL {
 		position: relative;
 		height: 100px;
@@ -255,7 +208,6 @@
 		transform: rotateZ(30deg);
 		background-color: white;
 	}
-
 	.hangman-armR {
 		position: relative;
 		height: 100px;
@@ -267,7 +219,6 @@
 		transform: rotateZ(-30deg);
 		background-color: white;
 	}
-
 	.hangman-legL {
 		position: relative;
 		height: 100px;
@@ -280,7 +231,6 @@
 		z-index: 1000;
 		background-color: white;
 	}
-
 	.hangman-legR {
 		position: relative;
 		height: 100px;
@@ -293,7 +243,6 @@
 		z-index: 1000;
 		background-color: white;
 	}
-
 	.lever {
 		height: 220px;
 		width: 20px;
@@ -305,67 +254,54 @@
 		top: 300px;
 		margin: 0 auto;
 	}
-
 	.lever.shift1 {
 		animation: shift1 3s ease-in-out;
 	}
-
 	@keyframes shift1 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.lever.shift2 {
 		animation: shift2 3s ease-in-out;
 	}
-
 	@keyframes shift2 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.lever.shift3 {
 		animation: shift3 3s ease-in-out;
 	}
-
 	@keyframes shift3 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.lever.shift4 {
 		animation: shift4 3s ease-in-out;
 	}
-
 	@keyframes shift4 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.lever.shift5 {
 		animation: shift5 3s ease-in-out;
 	}
-
 	@keyframes shift5 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.lever.shift6 {
 		animation: shift6 3s ease-in-out;
 	}
-
 	@keyframes shift6 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(30deg); }
 	  100% { transform: rotate(0deg); }
 	}
-
 	.gearbox {
 		width: 160px;
 		height: 100px;
@@ -377,9 +313,6 @@
 		right: -480px;
 		top: 270px;
 	}
-
-
-
 	.gearL {
 		position: relative;
 		margin: 0 auto;
@@ -388,7 +321,6 @@
 		width: 70px;
 		transform: rotateZ(-25deg);
 	}
-
 	.gearR {
 		position: relative;
 		margin: 0 auto;
@@ -396,127 +328,102 @@
 		right: -510px;
 		width: 70px;
 	}
-
 	.gearL.rotate1 {
 		animation: gearRotateL1 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL1 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate1 {
 		animation: gearRotateR1 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR1 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.gearL.rotate2 {
 		animation: gearRotateL2 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL2 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate2 {
 		animation: gearRotateR2 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR2 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.gearL.rotate3 {
 		animation: gearRotateL3 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL3 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate3 {
 		animation: gearRotateR3 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR3 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.gearL.rotate4 {
 		animation: gearRotateL4 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL4 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate4 {
 		animation: gearRotateR4 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR4 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.gearL.rotate5 {
 		animation: gearRotateL5 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL5 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate5 {
 		animation: gearRotateR5 3s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR5 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.gearL.rotate6 {
 		animation: gearRotateL6 1.5s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateL6 {
 	  0% { transform: rotateZ(-23deg); }
 	  70% { transform: rotateZ(-23deg); }
 	  100% { transform: rotateZ(365deg); }
 	}
-
 	.gearR.rotate6 {
 		animation: gearRotateR6 1.5s ease-in-out forwards;
 	}
-
 	@keyframes gearRotateR6 {
 	  0% { transform: rotateZ(0deg); }
 	  70% { transform: rotateZ(0deg); }
 	  100% { transform: rotateZ(-380deg); }
 	}
-
 	.doorL {
 		height: 20px;
 		width: 290px;
@@ -528,7 +435,6 @@
 		left: -160px;
 		top: 28px;
 	}
-
 	.doorR {
 		height: 20px;
 		width: 290px;
@@ -540,151 +446,89 @@
 		right: -160px;
 		top: 7px;
 	}
-
 	.doorL.drop1 {
 		animation: dropL1 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropL1 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(0deg); }
 	  100% { transform: rotate(5deg); }
 	}
-
 	.doorR.drop1 {
 		animation: dropR1 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR1 {
 	  0% { transform: rotate(0deg); }
 	  50% { transform: rotate(0deg); }
 	  100% { transform: rotate(-5deg); }
 	}
-
-
-
-
-
 	.doorL.drop2 {
 		animation: dropL2 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropL2 {
 	  0% { transform: rotate(5deg); }
 	  50% { transform: rotate(5deg); }
 	  100% { transform: rotate(10deg); }
 	}
-
 	.doorR.drop2 {
 		animation: dropR2 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR2 {
 	  0% { transform: rotate(-5deg); }
 	  50% { transform: rotate(-5deg); }
 	  100% { transform: rotate(-10deg); }
 	}
-
-
-
-
-
-
-
-
-
-
 	.doorL.drop3 {
 		animation: dropL3 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropL3 {
 	  0% { transform: rotate(10deg); }
 	  50% { transform: rotate(10deg); }
 	  100% { transform: rotate(17deg); }
 	}
-
 	.doorR.drop3 {
 		animation: dropR3 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR3 {
 	  0% { transform: rotate(-10deg); }
 	  50% { transform: rotate(-10deg); }
 	  100% { transform: rotate(-17deg); }
 	}
-
-
-
-
-
-
-
-
-
-
 	.doorL.drop4 {
 		animation: dropL4 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropL4 {
 	  0% { transform: rotate(17deg); }
 	  50% { transform: rotate(17deg); }
 	  100% { transform: rotate(23deg); }
 	}
-
 	.doorR.drop4 {
 		animation: dropR4 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR4 {
 	  0% { transform: rotate(-17deg); }
 	  50% { transform: rotate(-17deg); }
 	  100% { transform: rotate(-23deg); }
 	}
-
-
-
-
-
-
-
-
-
-
-
 	.doorL.drop5 {
 		animation: dropL5 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropL5 {
 	  0% { transform: rotate(23deg); }
 	  50% { transform: rotate(23deg); }
 	  100% { transform: rotate(30deg); }
 	}
-
 	.doorR.drop5 {
 		animation: dropR5 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR5 {
 	  0% { transform: rotate(-23deg); }
 	  50% { transform: rotate(-23deg); }
 	  100% { transform: rotate(-30deg); }
 	}
-
-
-
-
-
-
-
-
-
 	.doorL.drop6 {
 		animation: dropL6 3s 1 normal ease-in-out forwards;
 	}
-
 	@keyframes dropL6 {
 	  0% { transform: rotate(30deg); }
 	  50% { transform: rotate(30deg); }
@@ -697,11 +541,9 @@
 	  97% { transform: rotate(97deg); }
 	  100% { transform: rotate(94deg); }
 	}
-
 	.doorR.drop6 {
 		animation: dropR6 3s 1 normal ease-in forwards;
 	}
-
 	@keyframes dropR6 {
 	  0% { transform: rotate(-30deg); }
 	  50% { transform: rotate(-30deg); }
@@ -714,12 +556,10 @@
 	  97% { transform: rotate(-97deg); }
 	  100% { transform: rotate(-94deg); }
 	}
-
 	div.puzzle {
     	position: absolute;
     	top: -345px;
 	}
-
 	div.letters {
 		float: right;
 		max-width: 300px;
@@ -727,7 +567,6 @@
 		position: relative;
 		left: -230px;
 	}
-
 	div.available {
 		border-bottom: 2px solid black;
 		margin-right: 10px;
@@ -735,7 +574,6 @@
 		font-size: 2em;
 		display: inline-block;
 	}
-
 	div.blank {
 		border-bottom: 2px solid black;
 		margin-right: 10px;
@@ -743,28 +581,23 @@
 		font-size: 2em;
 		display: inline-block;
 	}
-
 	div.blank span.new {
 		display: none;
 	}
-
 	div.blank span.show {
 		display: inline-block;
 	}
-
 	div.space {
 		margin-right: 10px;
 		margin-left: 10px;
 		min-width: 1em;
 		font-size: 2em;
 		display: inline-block;
-		border-bottom: none
+		border-bottom: none;
 	}
-
 	.nixed {
 		color: red;
 	}
-
 	</style>
 	
 	</head>
@@ -818,50 +651,40 @@
 			var wrongCount = 0;
 			var numOfWrongAllowed = 6;
 			var allowInput = true;
-
 			var availableGuesses = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 			var guessed = [];
-
 			var wordBank = ["one", "two", "three", "fourty seven", "nickelback", "koozie", "lampoon", "alpha omega", "blue blood", "quiche", "salvador dali", "egg mcmuffin", "long island", "pilgrim", "cinnabun", "one fish two fish red fish dead fish", "hello"];
-
 			wordBank.forEach(function(item, index){
 				let word = wordBank[Math.floor(Math.random() * wordBank.length)];
 				if (index === wordBank.length - 1) {
 					buildBlanks(word);
 				}
 			});
-
 			function buildBlanks(word) {
 				for( var i = 0; i < word.length; i++) {
 					let newDiv = document.createElement('div');
 					let newSpan = document.createElement('span');
-
 					newDiv.classList.add('blank');
-
 					if (word.charAt(i) === " ") {
 						newDiv.classList.add('space');
 					} else {
 						newSpan.classList.add('new');
 					}
-
 					newSpan.textContent = word.charAt(i);
 					newDiv.appendChild(newSpan);
 					puzzle.appendChild(newDiv);
 				}
-
 				for( var i = 0; i < availableGuesses.length; i++) {
 					let newLDiv = document.createElement('div');
 					let newLSpan = document.createElement('span');
-
 					newLDiv.classList.add('available');
-
 					newLSpan.textContent = availableGuesses[i];
 					newLDiv.appendChild(newLSpan);
 					availableLetters.appendChild(newLDiv);
 				}
 			}
-
-			function markItWrong(counter) {
+			function markItWrong(input, counter) {
+				console.log(counter);
 				if (counter === puzzle.children.length) {
 					wrongCount++;
 					allowInput = false;
@@ -872,20 +695,16 @@
 					lever.classList.add("shift" + wrongCount);
 					gearL.classList.add("rotate" + wrongCount);
 					gearR.classList.add("rotate" + wrongCount);
-
 					setTimeout(function(){ allowInput = true }, 3500);
 				}
-
 				if (wrongCount === numOfWrongAllowed) {
 					setTimeout(function(){ alert('Game Over')}, 4000);
 				}
 			}
-
 			function userInput (input) {
 				var counter = 0;
 				let heave = availableGuesses.indexOf(input);
 				let agLength = guessed.length;
-
 				if (heave > -1) {
 					availableGuesses.splice(heave, 1);
 					for (var c = 0; c < availableLetters.children.length; c++) {
@@ -894,11 +713,9 @@
 						}
 					}
 				}
-
 				if(agLength === 0) {
 					guessed.push(input);
 				}
-
 				for (var a = 0; a < agLength; a++) {
 					if(guessed.indexOf(input) > -1) {
 						break;
@@ -906,7 +723,6 @@
 						guessed.push(input);
 					}
 				}
-
 				for (var b = 0; b < puzzle.children.length; b++) {
 					let letter = puzzle.children[b];
 					if (letter.children[0].textContent === input) {
@@ -916,9 +732,7 @@
 						markItWrong(input, counter);
 					}
 				}
-
 			}
-
 			document.addEventListener('keyup', function(e) {
 				if (availableGuesses.indexOf(e.key) > -1 && allowInput === true) {
 					userInput(e.key);
@@ -928,7 +742,6 @@
 					alert('choose a different letter already');
 				}
 			});
-
 		</script>
 	</body>
 </html>
