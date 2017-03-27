@@ -861,28 +861,23 @@
 				}
 			}
 
-			function markItWrong() {
-				wrongCount++;
-				allowInput = false;
-				rope.classList.add("drop" + wrongCount);
-				hangman.classList.add("drop" + wrongCount);
-				doorL.classList.add("drop" + wrongCount);
-				doorR.classList.add("drop" + wrongCount);
-				lever.classList.add("shift" + wrongCount);
-				gearL.classList.add("rotate" + wrongCount);
-				gearR.classList.add("rotate" + wrongCount);
+			function markItWrong(counter) {
+				if (counter === puzzle.children.length) {
+					wrongCount++;
+					allowInput = false;
+					rope.classList.add("drop" + wrongCount);
+					hangman.classList.add("drop" + wrongCount);
+					doorL.classList.add("drop" + wrongCount);
+					doorR.classList.add("drop" + wrongCount);
+					lever.classList.add("shift" + wrongCount);
+					gearL.classList.add("rotate" + wrongCount);
+					gearR.classList.add("rotate" + wrongCount);
 
-				setTimeout(function(){ allowInput = true }, 3500);
-
+					setTimeout(function(){ allowInput = true }, 3500);
+				}
 
 				if (wrongCount === numOfWrongAllowed) {
 					setTimeout(function(){ alert('Game Over')}, 4000);
-				}
-			}
-
-			function wrongAnswerCheck(input, counter) {
-				if (counter === puzzle.children.length) {
-					markItWrong();
 				}
 			}
 
@@ -918,7 +913,7 @@
 						letter.children[0].classList.add('show');
 					} else if (letter.children[0].textContent !== input) {
 						counter++;
-						wrongAnswerCheck(input, counter);
+						markItWrong(input, counter);
 					}
 				}
 
