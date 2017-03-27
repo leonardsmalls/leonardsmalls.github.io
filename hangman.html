@@ -822,7 +822,7 @@
 			var availableGuesses = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 			var guessed = [];
 
-			var wordBank = ["one", "two", "three", "fourty seven", "nickelback", "koozie", "lamppon", "alpha omega", "blue blood", "quiche", "salvador dali", "egg mcmuffin", "long island", "pilgrim"];
+			var wordBank = ["one", "two", "three", "fourty seven", "nickelback", "koozie", "lampoon", "alpha omega", "blue blood", "quiche", "salvador dali", "egg mcmuffin", "long island", "pilgrim", "cinnabun", "one fish two fish red fish dead fish", "hello"];
 
 			wordBank.forEach(function(item, index){
 				let word = wordBank[Math.floor(Math.random() * wordBank.length)];
@@ -894,7 +894,6 @@
 				if (heave > -1) {
 					availableGuesses.splice(heave, 1);
 					for (var c = 0; c < availableLetters.children.length; c++) {
-						console.log(availableLetters.children[c]);
 						if (availableLetters.children[c].textContent === input) {
 							availableLetters.children[c].classList.add('nixed');
 						}
